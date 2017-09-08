@@ -1,0 +1,433 @@
+body {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 15px;
+	line-height: 1.5;
+	padding: 0;
+	margin: 0;
+	background-color: white; 
+}
+
+
+/**** UNIVERSAL ******************/
+
+
+.container {
+	width: 80%;
+	margin: auto;
+	overflow: hidden;
+}
+
+/*ul {
+	margin: 0;
+	padding: 0;
+}*/
+
+.dark {
+	padding: 15px;
+	background: royalblue;
+	color: white;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
+
+/**** HEADER ******************/
+
+
+header {
+	background: url(./img/pool2.jpg);
+}
+
+.logo {
+	float: left;
+}
+
+header img {
+	width: 250px;
+	margin-top: 5px;
+	border: white 3px solid;
+}
+
+header nav {
+	padding: 10px;
+	background: royalblue;
+	box-shadow: 5px 5px 10px black;
+	float: right;
+	margin: 70px 20px 10px 0;
+	color: white;
+	font-size: 20px;
+	font-weight: bold;
+}
+
+header nav ul {
+	margin: 0;
+	padding: 0;
+}
+
+header nav li {
+	list-style: none;
+	display: inline;
+	text-transform: uppercase;
+	padding: 0 10px 0 10px;
+}
+
+nav a {
+	text-decoration: none;
+	color: white;
+}
+
+nav a:hover {
+	color: red;
+}
+
+.current a {
+	color: yellow;
+}
+
+
+/**** MAIN ******************/
+
+
+#main {
+	margin-bottom: 20px;
+}
+
+#main .intro {
+	width: 60%;
+	float: left;
+	margin: 0;
+}
+
+#main .intro h1 {
+	text-align: center;
+	font-size: 32px;
+	text-transform: uppercase;
+	margin: 20px 0 0 0;
+}
+
+#main .intro p {
+	font-size: 20px;
+	font-weight: 500;
+	text-indent: 25px;
+	box-shadow: 5px 5px 10px black;
+}
+
+#main .van {
+	width: 35%;
+	float: right;
+	margin: 80px 20px 0 0;
+}
+
+#main .award {
+	text-align: center;
+	width: 35%;
+	float: right;
+	margin: 10px 20px 0 0;
+}
+
+#main .van img {
+	width: 100%;
+	border: royalblue 5px solid;
+	box-shadow: 5px 5px 10px black;
+}
+
+#main .award img {
+	width: 60%;
+}
+
+#banner {
+	min-height: 50px;
+	background: url(./img/pool1.jpg);
+	border-top: black 5px solid;
+	border-bottom: black 5px solid;
+}
+
+#info {
+	text-align: center;
+}
+
+#info h1 {
+	font-size: 32px;
+	text-transform: uppercase;
+	margin: 20px 0 20px 0;
+}
+
+#info h3 {
+	text-transform: uppercase;
+	background: royalblue;
+	color: white;
+	border-radius: 10px 0 10px 0;
+	padding: 3px;
+	margin: 10px 20px 40px 20px;
+	box-shadow: 5px 5px 10px black;
+}
+
+#info a {
+	text-decoration: none;
+}
+
+#info a:hover h3 {
+	color: red;
+}
+
+#info img {
+	width: 200px;
+	height: 160px;
+	border: royalblue 5px solid;
+	box-shadow: 5px 5px 10px black;
+}
+
+#info a:hover img {
+	width: 253px;
+}
+
+.box {
+	margin-top: 20px;
+	width: 33%;
+	float: left;
+	text-align: center;
+}
+
+
+/**** ABOUT ******************/
+
+
+#article {
+	margin: 0 0 20px 0;
+}
+
+#article .bio {
+	width: 60%;
+	float: right;
+	margin-top: 30px;
+}
+
+#article .bio h1 {
+	text-align: center;
+	font-size: 32px;
+	text-transform: uppercase;
+	margin: 20px 0 0 0;
+}
+
+#article .bio p {
+	font-size: 20px;
+	font-weight: 500;
+	text-indent: 25px;
+	box-shadow: 5px 5px 10px black;
+}
+
+#article .profile {
+	width: 35%;
+	float: left;
+	margin: 40px 20px 0 0;
+}
+
+#article .profile img {
+	width: 100%;
+	border: royalblue 5px solid;
+	box-shadow: 5px 5px 10px black;
+}
+
+#article .scripture {
+	float: left;
+	width: 35%; 
+	text-align: center;
+	font-size: 20px;
+}
+
+
+/**** SERVICES ******************/
+
+
+#services p {
+	margin: 0 10px 20px 0;
+	font-size: 20px;
+	text-indent: 25px;
+	box-shadow: 5px 5px 10px black;
+}
+
+#services h1 {
+	text-align: center;
+	font-size: 30px;
+	text-transform: uppercase;
+}
+
+#work {
+	text-align: center;
+}
+
+.option {
+	float: left;
+	width: 50%;
+	margin-bottom: 20px;
+}
+
+.option img {
+	width: 200px;
+	height: 160px;
+	border: royalblue 5px solid;
+	box-shadow: 5px 5px 10px black;
+}
+
+.option h3 {
+	margin: 20px 40px;
+	color: white;
+	font-size: 26px;
+	background: royalblue;
+	box-shadow: 5px 5px 10px black;
+}
+
+.option ul {
+	margin: 20px;
+}
+
+.option li {
+	line-height: 2;
+	font-size: 18px;
+	text-align: left;
+	font-weight: bold;
+}
+
+.option p {
+	margin: 40px;
+	font-size: 18px;
+	text-align: left;
+	font-weight: bold;
+}
+
+#image {
+	text-align: center;
+}
+
+.pic {
+	float: left;
+	width: 50%;
+}
+
+.pic img {
+	width: 350px;
+	margin: 20px;
+	border: royalblue 5px solid;
+	box-shadow: 5px 5px 10px black;
+}
+
+
+/**** CONTACT ******************/
+
+
+article {
+	width: 50%;
+	float: left;
+	text-align: center;
+}
+
+article h1 {
+	font-size: 36px;
+}
+
+aside {
+	width: 40%;
+	padding: 10px;
+	float: right;
+}
+
+#contact {
+	margin: 50px 0 50px 0;
+}
+
+#outro {
+	text-align: center;
+	margin: 20px;
+}
+
+#outro img {
+	width: 600px;
+	border: royalblue 5px solid;
+	box-shadow: 5px 5px 10px black;
+}
+
+
+/**** FOOTER ******************/
+
+footer {
+	background: url(./img/pool2.jpg);
+	color: white;
+	text-align: center;
+	overflow: auto;
+	clear: both;
+}
+
+
+/**** MEDIA QUERIES ******************/
+
+
+@media(max-width: 900px) {
+	header .logo,
+	header,
+	header nav,
+	#main .van,
+	#main .award,
+	#info .box,
+	#main .intro,
+	header img,
+	#article .bio,
+	#article .profile,
+	#article .scripture,
+	#services .intro,
+	#work .option,
+	#image .pic,
+	.pic img,
+	#contact article,
+	#contact aside,
+	#contact aside form,
+	#outro img {
+		float: none;
+		text-align: center;
+		width: 100%;
+	}
+
+	#main .van img,
+	#info .box img,
+	header nav,
+	#main .intro p,
+	#article .profile img,
+	#article .bio p,
+	#services .intro p,
+	#work .option h3,
+	#image .pic img,
+	#outro img {
+		border: none;
+		box-shadow: none;
+	}
+
+	header nav {
+		margin: 10px;
+		padding: 0;
+	}
+
+	header .logo {
+		margin-top: 10px;
+	}
+
+	#main .van {
+		margin-top: 0;
+	}
+
+	#main .van img {
+		margin-top: 10px;
+	}
+
+	#work .option li {
+		line-height: 1.5;
+	}
+
+	.option p {
+		margin: 10px 20px;
+	}
+
+	aside form {
+		text-align: center;
+	}
+	 
+}
+
