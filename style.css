@@ -235,8 +235,10 @@ nav a:hover {
 
 #article .scripture img{
 	float: right;
-	width: 100%; 
-	text-align: center;
+	width: 50%; 
+	padding: 10px;
+	margin-right: 130px;
+
 }
 
 
@@ -384,7 +386,9 @@ footer {
 	#contact article,
 	#contact aside,
 	#contact aside form,
-	#outro img {
+	#outro img,
+	#article .scripture,
+	#article .scripture img {
 		float: none;
 		text-align: center;
 		width: 100%;
@@ -431,6 +435,12 @@ footer {
 
 	aside form {
 		text-align: center;
+	}
+
+	#article .scripture img {
+		padding: 0;
+		margin: 0;
+		width: 100%;
 	}
 	 
 }
