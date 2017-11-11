@@ -3,10 +3,11 @@
 
 <head>
 	<meta charset="utf-8">
- 	<meta name="viewport" content="width=device-width">
+ 	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
  	<meta name="description" content="The Pool Dude Service and Repair">
  	<meta name="keywords" content="the pool dude, pool dude, pool cleaning, pool maintenance, spa cleaning, spa repair, pool repair, pool closing, pool winterizing">
 	<title>The Pool Dude | Contact Us</title>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous">
 	<link rel="stylesheet" type="text/css" href="style.css">
 </head>
 
@@ -39,15 +40,15 @@
 
 			<aside class="dark">
 				<h2>Send Us an Email:</h2>
-				<form action="mailto:someone@example.com" method="post" enctype="text/plain">
-				Name:<br>
-				<input type="text" name="name"><br>
-				E-mail:<br>
-				<input type="text" name="mail"><br>
-				Comment:<br>
-				<input type="text" name="comment" size="30"><br><br>
-				<input type="submit" value="Send">
-				<input type="reset" value="Reset">
+				<form action="mailto:pooldude@dude.com?subject=Customer Request" method="post" enctype="text/plain">
+					<label class="label">Name:</label><br>
+					<input type="text" name="name"><br>
+					<label class="label">Email:</label><br>
+					<input type="text" name="email"><br>
+					<label class="label">Message:</label><br>
+					<textarea name="message"></textarea><br>
+					<button type="submit">Submit</button>
+					<button type="reset">Reset</button>
 				</form>
 			</aside>	
 		</div>
@@ -61,6 +62,12 @@
 
 	<footer>
 		<p>T.Hanks Web Design. Copyright &copy; 2017</p>
+
+
+		<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js" integrity="sha384-vFJXuSJphROIrBnz7yo7oB41mKfc8JzQZiCq4NCceLEaO4IHwicKwpJf9c9IpFgh" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js" integrity="sha384-alpBpkh1PFOepccYVYDB4do5UnbKysX5WZXm3XxPqe5iKTfUKjNkCk9SaVuEZflJ" crossorigin="anonymous"></script>
+
 	</footer>
 
 </body>
